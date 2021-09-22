@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+h1 {
+background-color : black;
+color: white ;
+text-align : left;
+text-decoration : uppercase;
+font-size : large;
+font-weight: bold;
+}
+h3 {
+background-color : white;
+color: blue ;
+text-align : left;
+text-decoration : uppercase;
+font-size : large;
+font-weight: bold;
+}
+
+input, label {
+background-color : white;
+color: red ;
+text-align : left;
+text-decoration : lowercase;
+font-size : medium;
+font-weight: bold;
+}
+</style>
+
+<h1> Hi please answer to that 3 quick questions which help me survey about family </h1>
+<form action=".\answer.php" method="get">
+<!--1st question-->
+<div class = "form-controls">
+<label>
+<h3> How old you are ?</h3> 
+</label>
+  <input type="checkbox" name="Age" value="1">
+  <label for="Age1"> less than 25. </label><br>
+  <input type="checkbox" name="Age2" value="2">
+  <label for="Age2"> more than 25 y/o less than 35 y/o.</label><br>
+  <input type="checkbox" name="Age3" value="3" >
+  <label for="Age3"> more than 35 y/o.</label> <br> <br>
+  </div>
+  <!--2nd question-->
+  <div class = "form-controls">
+<label>
+  <h3> Do you are in relationship ?</h3>
+  </label>
+  <input type="checkbox" name="relation1" value="4">
+  <label for="relaton1"> Yes. </label><br>
+  <input type="checkbox" name="relation2" value="5">
+  <label for="relation2"> No.</label><br>
+ </div>
+  <!--3rd question-->
+  <div class = "form-controls">
+<label>
+   <h3> Do you have a kids ?</h3>
+   </label>
+  <input type="checkbox" name="kids" value="6">
+  <label for="kids1"> Yes,just 1. </label><br>
+  <input type="checkbox" name="kids2" value="7">
+  <label for="kids2"> Yes more than 1.</label><br>
+  <input type="checkbox" name="kids3" value="8" >
+  <label for="kids3"> No.</label><br><br>
+  </div>
+  <input type="submit" value="Submit">
+  
+</form>
+</body>
+</html>
