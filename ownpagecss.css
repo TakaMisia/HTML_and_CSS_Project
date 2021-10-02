@@ -63,7 +63,7 @@ html {
     font-weight: 200;
     text-align: left;
     text-shadow: black;
-    text-transform: lowercase;
+    text-transform: initial;
     color: green;
     padding-bottom: 0px;
     }
@@ -82,25 +82,43 @@ html {
 /*======================
 my job section style
 ======================*/
+div.photo-container {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 200;
+    height: 200;
+   columns: 2;
+  }
 
-.menu-container {
+  div.photo-container:hover {
+    border: 5px solid rgb(255, 2, 2);
+  }
+  div.photo-container2:hover {
+    border: 5px solid rgb(255, 2, 2);
+  }
 
-}
+  div.photo img {
+    width: 300;
+     height: 300;
+     margin-left: 5px;
+     padding:5px ;
+  }
+  
+  div.desc {
+    padding: 40px;
+    text-align: center;
 
-.menu {
+
+
+div.menu {
  
 }
 
-.container {
+div.container {
 }
 
-.photo-container {
 
-}
-
-.photo {
- 
-}
 
 .flex-container {
 
