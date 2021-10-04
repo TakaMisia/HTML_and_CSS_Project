@@ -1,0 +1,141 @@
+/*====================================
+Authour: Michalina Brodnicka
+Mechanic website
+==========================*/
+
+/*======================
+about section style
+======================*/
+#home {
+    background: scroll;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100px;
+    height: auto;
+    display: block;
+    
+}
+
+a{
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 15px; 
+    border-radius: 25px;
+    line-height: 1.6;
+    border-top: 2px solid red;
+}
+
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: large;
+    }
+    
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        margin-top: auto;
+       color: blue;
+       background-color: cornsilk;
+    
+    }
+    
+    h1,h2,h3,h4,h5,h6 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+    
+    h1 {
+        line-height: 35px;
+        font-size: xx-large;
+        font-weight: 300;
+        text-align: left;
+        text-shadow: darkslategrey;
+        text-transform: uppercase;
+    color: crimson;
+    
+    }
+    h2, h3, h4 {
+    line-height: 20px;
+    font-size: medium;
+    font-weight: 200;
+    text-align: left;
+    text-shadow: black;
+    text-transform: initial;
+    color: green;
+    padding-bottom: 0px;
+    }
+    
+    h5, h6 {
+        line-height: 10px;
+        font-size: small;
+        font-weight: 300;
+        text-align: left;
+        text-shadow: yellow;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+
+/*======================
+my job section style
+======================*/
+div.photo-container {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 200;
+    height: 200;
+   columns: 2;
+  }
+
+  div.photo-container:hover {
+    border: 5px solid rgb(255, 2, 2);
+  }
+  div.photo-container2:hover {
+    border: 5px solid rgb(255, 2, 2);
+  }
+
+  div.photo img {
+    width: 300;
+     height: 300;
+     margin-left: 5px;
+     padding:5px ;
+  }
+  
+  div.desc {
+    padding: 40px;
+    text-align: center;
+
+
+
+div.menu {
+ 
+}
+
+div.container {
+}
+
+
+
+.flex-container {
+
+}
+
+.homedis {
+
+}
+
+
+/*======================
+contact  section style
+======================*/
+
+p {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+
+}

@@ -1,0 +1,10 @@
+body {
+background-color: lightblue;
+font color: darkblue;
+}
+
+img {
+border-style: dashed; 
+border-color: red; 
+border-width: 2px;
+}
