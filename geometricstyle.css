@@ -155,16 +155,16 @@ section {
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
-    color: #fff;
+    color: rgb(226, 0, 0);
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
-    text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
     border: 5px double #fff;
     padding: 10px;
+    text-align: left;
 }
 
 .head-sub-main {
