@@ -201,10 +201,11 @@ section {
 }
 
 .reservation {
-    width: 60%;
+    width: 100%;
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
+    text-align: center;
     background-color: rgba(100,65,0,.3);
     box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -234,7 +235,7 @@ section {
 
 .reservation  {
     color: #13161b;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -244,7 +245,7 @@ section {
     font-weight: 600;
     color: #8d8e8f;
     padding: 12px 12px;
-    width: 70%;
+    width: 50%;
     border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
